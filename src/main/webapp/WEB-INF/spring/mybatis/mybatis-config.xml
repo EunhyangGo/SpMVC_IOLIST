@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE 
+	configuration 
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+	
+<configuration>
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="false"/>
+	</settings>
+	<typeAliases>
+			<typeAlias 
+			type="com.biz.iolist.model.IoListVO" alias="iolistVO"/>
+			
+			<typeAlias 
+			type="com.biz.iolist.model.IoDTO" alias="ioDTO"/>
+			<typeAlias 
+			type="com.biz.iolist.model.ProductVO" alias="productVO"/>
+			<typeAlias 
+			type="com.biz.iolist.model.DeptVO" alias="deptVO"/>
+			
+			<!-- alias = iolistVO로 별명을 지은것. -->
+	</typeAliases>
+</configuration>	
